@@ -31,17 +31,16 @@ public class Main {
         }
     }
     public static void main(String[] args) {
-        String[] strs = new String[10];
-        strs[0] = "Dash: her text";
-        strs[1] = "Masha: textOFMasha";
-        strs[2] = "Grisha: Hello World!";
-        strs[3] = "Никита: введите имя";
-        strs[4] ="Masha: textOFMasha";
-        strs[5] = "Dash: her text";
-        strs[6] = "Grisha:";
+        String[] text = new String[10];
+        text[0] = "Dash: her text";
+        text[1] = "Masha: textOFMasha";
+        text[2] = "Grisha: Hello World!";
+        text[3] = "Никита: введите имя";
+        text[4] ="Masha: textOFMasha";
+        text[5] = "Dash: her text";
+        text[6] = "Grisha:";
 
 
-        groupByRole(strs);
-        System.out.println("newS");
+        groupByRole(text);
      }
 }

@@ -1,2 +1,4 @@
-ign.txt
-hey.txt
+*
+!*/
+!.gitignore
+!Main.java
